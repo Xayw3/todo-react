@@ -1,0 +1,114 @@
+button {
+    cursor: pointer;
+}
+
+.planner-wrapper {
+    padding: 10px 15px;
+    max-width: 700px;
+    margin: 25px;
+    background-color: rgb(45, 44, 44);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.planner-wrapper__tasks {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+    border-bottom: 1px solid rgb(174, 163, 163);
+    padding-bottom: 15px;
+}
+
+.planner__btn--add {
+    background-color: rgb(57, 188, 231);
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.planner-priority {
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: rgb(66, 62, 62);
+}
+
+.planner__input {
+    color: rgb(66, 62, 62);
+    background-color: #fff;
+    padding: 10px 5px;
+    border-radius: 10px;
+
+    &::placeholder {
+        color: rgb(66, 62, 62);
+    }
+}
+
+.planner__change {
+    color: #fff;
+}
+
+.planner__tasks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.planner__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid rgb(174, 163, 163);
+    padding: 15px 0;
+}
+
+.planner__item--high {
+    color: rgb(203, 3, 3)
+}
+
+.planner__item--medium {
+    color: rgb(225, 169, 28);
+}
+
+.planner__item--low {
+    color: rgb(25, 218, 25);
+}
+
+.task-done {
+    text-decoration: line-through;
+}
+
+.btn {
+    color: #fff;
+}
+
+.planner__label {
+    display: flex;
+    align-items: center;
+}
+
+.d-none {
+    display: none;
+}
+
+.btns-priority {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0 15px;
+}
+
+.btns-priority button {
+    color: #fff;
+}
+
+.btns-progress {
+    display: flex;
+    gap: 15px;
+}
+
+.btns-progress button {
+    color: #fff;
+}
